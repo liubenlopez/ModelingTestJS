@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<script src="jquery-3.6.1.min.js"></script>
+	</head>
+	<body>
+		<div style="float: left;">
+			<table id="TableTest" style="border: 1px solid;"><tbody></tbody></table>
+		</div>
+		<div style="float: right; margin-right: 15px;">
+			<div style="margin-bottom: 10px;">Poblacion: <span id="poblacionCount"></span></div>
+			<button onclick="ejecutarSimulacionPasoAPaso();" style="margin-bottom: 10px; min-width: 210px;">- Simulación Paso a Paso</button>
+			<button onclick="ejecutarSimulacionCiclica();" id="ejecutarSimulacionCiclica" style="display: block; min-width: 210px;">> Simulación Automática</button>
+			<button onclick="pausarSimulacionCiclica();" id="pausarSimulacionCiclica" style="display: none; min-width: 210px;">■ Parar Simulación Automática</button>
+		</div>
+	</body>
+	<script src="controller.js"></script>
+</html>
